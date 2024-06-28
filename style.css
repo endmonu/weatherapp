@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background: url(https://www.un.org/sites/un2.un.org/files/styles/large-article-image-style-16-9/public/field/image/2023/03/52196025795_06f077377a_c.jpg);
+}
+
+#container{
+
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;  
+    background-color: rgb(124, 170, 170);  
+}
+
+
+#weather-button{
+    background-color: rgb(216, 202, 13);
+    cursor: pointer;
+}
+
+#city{
+    font-weight: bold;
+}
